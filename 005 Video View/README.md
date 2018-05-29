@@ -1,0 +1,3 @@
+# Video View 
+
+1. Video keeps under raw folder which available in res directory.....
