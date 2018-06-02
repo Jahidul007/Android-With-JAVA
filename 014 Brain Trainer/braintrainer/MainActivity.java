@@ -48,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
         resultTextView.setText("");
         playAgainButton.setVisibility(View.INVISIBLE);
         gridLayout.setVisibility(View.VISIBLE);
+        sumTextView.setVisibility(View.VISIBLE);
+        highTextView.setVisibility(View.INVISIBLE);
+
+
         generateQuestion();
 
         new CountDownTimer(10100, 1000) {
@@ -61,8 +65,11 @@ public class MainActivity extends AppCompatActivity {
             public void onFinish() {
 
                 gridLayout.setVisibility(View.INVISIBLE);
+                sumTextView.setVisibility(View.INVISIBLE);
 
                 playAgainButton.setVisibility(View.VISIBLE);
+
+                highTextView.setVisibility(View.VISIBLE);
 
                 timerTextView.setText("0s");
 
