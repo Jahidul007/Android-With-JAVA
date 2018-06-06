@@ -1,2 +1,3 @@
  # Google Play Style TabLayout
-<img src="!https://user-images.githubusercontent.com/26745548/41061791-9cdd0280-69f5-11e8-8864-0e60d6e5df80.png" width="200" height="400" />
+
+![screenshot_2018-06-07-01-51-30-221_com whatsapp](https://user-images.githubusercontent.com/26745548/41062370-72a945da-69f7-11e8-8cbf-31c532df24cc.png)
