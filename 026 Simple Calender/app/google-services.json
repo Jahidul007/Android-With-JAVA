@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "934535883800",
+    "firebase_url": "https://customclickablecalender-master.firebaseio.com",
+    "project_id": "customclickablecalender-master",
+    "storage_bucket": "customclickablecalender-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934535883800:android:01e0ef95ee28b34a",
+        "android_client_info": {
+          "package_name": "sumon.info.customcalender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934535883800-fvo1tv2en8cps3cg722v9bqm9sbgr4b0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sumon.info.customcalender",
+            "certificate_hash": "fcdadd14fa444732f912edd0b0f1e900a3e8c77f"
+          }
+        },
+        {
+          "client_id": "934535883800-vabuoih5ovp40e733ojp08pe88lsn43u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI3piEUSS7BwjDdRKgDreghMaYQxJREIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934535883800-vabuoih5ovp40e733ojp08pe88lsn43u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
