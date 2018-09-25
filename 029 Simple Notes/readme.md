@@ -5,4 +5,4 @@
 <img src="https://user-images.githubusercontent.com/26745548/46033257-91427a00-c11f-11e8-8d8a-96fdeceb284b.png" width="300">
 
 # Note List
-<img src="https://user-images.githubusercontent.com/26745548/46033258-91427a00-c11f-11e8-93f0-7af0cac48603.png" width="300")
+<img src="https://user-images.githubusercontent.com/26745548/46033258-91427a00-c11f-11e8-93f0-7af0cac48603.png" width="300">
