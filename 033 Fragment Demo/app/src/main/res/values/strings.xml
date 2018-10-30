@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fragment Demo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fragment_1">
+        \nName: Jahid
+        \nAge : 23
+        \nPhone: 8457934875
+
+    </string>
+
+    <string name="fragment_2">
+        \nName: Saifur
+        \nAge : 13
+        \nPhone: 97846576
+
+    </string>
+</resources>
