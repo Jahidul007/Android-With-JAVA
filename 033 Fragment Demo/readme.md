@@ -1,4 +1,4 @@
-# Fragment transection 
+# Fragment transaction 
             Fragment fragment = new FragmentDemo();
 
             FragmentManager manager = getFragmentManager();
