@@ -1,7 +1,7 @@
 # Recycler View
 
-**Dependency**
-dependencies {
+**Dependency**</br>
+dependencies {</br>
     implementation fileTree(dir: 'libs', include: ['*.jar'])</br>
     //..</br>
  
