@@ -6,4 +6,7 @@ Android is an open source and Linux-based Operating System for mobile devices su
 **Why Android?**</br>
 ![why_android](https://user-images.githubusercontent.com/26745548/40565682-4b3b888a-608f-11e8-864c-aeb5826efecb.jpg)
 
+**Retrofit**</br>
+Retrofit is a type-safe REST client for Android, Java and Kotlin developed by Square. The library provides a powerful framework for authenticating and interacting with APIs and sending network requests with OkHttp. See this guide to understand how OkHttp works.
+
 
