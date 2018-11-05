@@ -9,4 +9,9 @@ Android is an open source and Linux-based Operating System for mobile devices su
 **Retrofit**</br>
 Retrofit is a type-safe REST client for Android, Java and Kotlin developed by Square. The library provides a powerful framework for authenticating and interacting with APIs and sending network requests with OkHttp. See this guide to understand how OkHttp works.
 
+**Broadcast Receiver**</br>
+A broadcast receiver (receiver) is an Android component which allows you to register for system or application events. All registered  receivers for an event are notified by the Android runtime once this event happens.</br>
+The following example demonstrates the registration for the BOOT_COMPLETED event in the Android manifest file.</br>
 
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
