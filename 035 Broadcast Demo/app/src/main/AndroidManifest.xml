@@ -18,13 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-       <!-- this method use for Api lavel >24
+       <!-- this method use for Api lavel >24-->
        <receiver android:name=".ExampleBroadcastReceiver">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="com.jahid.EXAMPLE_ACTION"/>
             </intent-filter>
-        </receiver> -->
+        </receiver>
     </application>
 
 </manifest>
