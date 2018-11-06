@@ -19,13 +19,14 @@ The following example demonstrates the registration for the BOOT_COMPLETED event
 
 **ProGruad to prevent Reverse Engineering**</br>
 
- buildTypes {
+    buildTypes {
         debug {
             shrinkResources true
             minifyEnabled true
             useProguard true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
         release {
             shrinkResources true
             minifyEnabled true
@@ -33,3 +34,4 @@ The following example demonstrates the registration for the BOOT_COMPLETED event
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
