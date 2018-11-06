@@ -17,7 +17,7 @@ The following example demonstrates the registration for the BOOT_COMPLETED event
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
 
 </br>
-**Pro-Gruad to prevent Reverse Engineering**</br>
+**ProGruad to prevent Reverse Engineering**</br>
 
  buildTypes {
         debug {
