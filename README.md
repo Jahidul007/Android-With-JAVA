@@ -34,4 +34,13 @@ The following example demonstrates the registration for the BOOT_COMPLETED event
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+**Can multiple android application access same firebase database?**</br>
+
+1. Yes, it is possible. Go to your firebase console. Select home tab. Click on Add App. Select Add firebase to your Android App. Provide the necessary details for the package name. Download the latest config file and add it to all the android apps connected to this firebase project.</br>
+    
+2. With Android Studio 2.2 and upwards you can easily create and add apps to you Firebase project without leaving your work environment and no need to download google-services.json</br>
+
+From Android Studio go to Tools->Firebase and create, add apps to project of choice :)</br>
+![kbqcc](https://user-images.githubusercontent.com/26745548/53359981-8efa7b00-395e-11e9-9f1a-7d9fdaeeb2cf.png)
+
 
