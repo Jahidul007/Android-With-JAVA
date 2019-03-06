@@ -41,6 +41,19 @@ The following example demonstrates the registration for the BOOT_COMPLETED event
 2. With Android Studio 2.2 and upwards you can easily create and add apps to you Firebase project without leaving your work environment and no need to download google-services.json</br>
 
 From Android Studio go to Tools->Firebase and create, add apps to project of choice :)</br>
-![kbqcc](https://user-images.githubusercontent.com/26745548/53359981-8efa7b00-395e-11e9-9f1a-7d9fdaeeb2cf.png)
+![kbqcc](https://user-images.githubusercontent.com/26745548/53359981-8efa7b00-395e-11e9-9f1a-7d9fdaeeb2cf.png) </br>
+
+**Build unsigned APK file with Android Studio**</br>
+I would recommend you to build your apk file with gradle:</br>
+
+1. Click the dropdown menu in the toolbar at the top</br>
+2. Select "Edit Configurations"</br>
+3. Click the "+"</br>
+4. Select "Gradle"</br>
+4. Choose your module as Gradle project</br>
+6. In Tasks: enter assemble</br>
+7. Press Run</br>
+Your unsigned apk is now located in</br>
+ProjectName\app\build\outputs\apk</br>
 
 
