@@ -58,13 +58,14 @@ ProjectName\app\build\outputs\apk</br>
 
 **WebView is not loading page in Android 9.0?**</br>
 1. Add @xml/network_security_config into your resources:</br>
-
+```xml
 <?xml version="1.0" encoding="utf-8"?></br>
 <network-security-config></br>
     <domain-config cleartextTrafficPermitted="true"></br>
         <domain includeSubdomains="true">www.google.com</domain></br>
     </domain-config></br>
 </network-security-config></br>
+```
 2. Add this security config to your Manifest like this:</br></br>
 
 <application</br>
