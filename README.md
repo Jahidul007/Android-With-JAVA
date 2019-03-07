@@ -55,6 +55,7 @@ I would recommend you to build your apk file with gradle:</br>
 7. Press Run</br>
 Your unsigned apk is now located in</br>
 ProjectName\app\build\outputs\apk</br>
+
 **WebView is not loading page in Android 9.0?**</br>
 1. Add @xml/network_security_config into your resources:</br>
 
