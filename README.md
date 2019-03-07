@@ -58,21 +58,21 @@ ProjectName\app\build\outputs\apk</br>
 **WebView is not loading page in Android 9.0?**</br>
 1. Add @xml/network_security_config into your resources:</br>
 
-<?xml version="1.0" encoding="utf-8"?>
-<network-security-config>
-    <domain-config cleartextTrafficPermitted="true">
-        <domain includeSubdomains="true">www.google.com</domain>
-    </domain-config>
-</network-security-config>
-2. Add this security config to your Manifest like this:</br>
+<?xml version="1.0" encoding="utf-8"?></br>
+<network-security-config></br>
+    <domain-config cleartextTrafficPermitted="true"></br>
+        <domain includeSubdomains="true">www.google.com</domain></br>
+    </domain-config></br>
+</network-security-config></br>
+2. Add this security config to your Manifest like this:</br></br>
 
-<application
-    ...
-    android:networkSecurityConfig="@xml/network_security_config"
-    ...>
+<application</br>
+    ...</br>
+    android:networkSecurityConfig="@xml/network_security_config"</br>
+    ...></br>
 
-    ...
-</application>
+    ...</br>
+</application></br>
 3. Now you allowed using HTTP connection on www.google.com subdomains.</br>
 
 
