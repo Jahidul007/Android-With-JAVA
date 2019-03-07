@@ -66,8 +66,8 @@ ProjectName\app\build\outputs\apk</br>
     </domain-config></br>
 </network-security-config></br>
 ```
-2. Add this security config to your Manifest like this:</br></br>
-
+2. Add this security config to your Manifest like this:</br>
+```xml
 <application</br>
     ...</br>
     android:networkSecurityConfig="@xml/network_security_config"</br>
@@ -75,6 +75,7 @@ ProjectName\app\build\outputs\apk</br>
 
     ...</br>
 </application></br>
+```
 3. Now you allowed using HTTP connection on www.google.com subdomains.</br>
 
 
