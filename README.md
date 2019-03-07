@@ -55,5 +55,24 @@ I would recommend you to build your apk file with gradle:</br>
 7. Press Run</br>
 Your unsigned apk is now located in</br>
 ProjectName\app\build\outputs\apk</br>
+**WebView is not loading page in Android 9.0?**</br>
+1. Add @xml/network_security_config into your resources:</br>
+
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">www.google.com</domain>
+    </domain-config>
+</network-security-config>
+2. Add this security config to your Manifest like this:</br>
+
+<application
+    ...
+    android:networkSecurityConfig="@xml/network_security_config"
+    ...>
+
+    ...
+</application>
+3. Now you allowed using HTTP connection on www.google.com subdomains.</br>
 
 
