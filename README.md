@@ -78,7 +78,7 @@ ProjectName\app\build\outputs\apk</br>
 ```
 3. Now you allowed using HTTP connection on www.google.com subdomains.</br>
 
-**How can I open a URL in Android's web browser from my application?**</br>
+**How can I open a URL in Android's web browser from my application? **</br>
 ```java
 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
 startActivity(browserIntent);
