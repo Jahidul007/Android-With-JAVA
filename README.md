@@ -88,5 +88,8 @@ As for the missing "http://" I'd just do something like this:</br>
 if (!url.startsWith("http://") && !url.startsWith("https://"))
    url = "http://" + url;
    ```
-
+Android webview displaying blank page :</br>
+```java
+wbView.getSettings().setDomStorageEnabled(true);
+   ```
 
