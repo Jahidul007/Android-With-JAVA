@@ -78,15 +78,20 @@ ProjectName\app\build\outputs\apk</br>
 ```
 3. Now you allowed using HTTP connection on www.google.com subdomains.</br>
 
-**How can I open a URL in Android's web browser from my application? **</br>
+**How can I open a URL in Android's web browser from my application?** </br>
 ```java
 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
 startActivity(browserIntent);
 ```
-As for the missing "http://" I'd just do something like this:</br>
+**As for the missing "http://" I'd just do something like this:**</br>
+
 ```java
 if (!url.startsWith("http://") && !url.startsWith("https://"))
    url = "http://" + url;
    ```
+**Android webview displaying blank page :**</br>
 
+```java
+wbView.getSettings().setDomStorageEnabled(true);
+   ```
 
