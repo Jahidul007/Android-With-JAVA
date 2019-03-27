@@ -94,4 +94,7 @@ if (!url.startsWith("http://") && !url.startsWith("https://"))
 ```java
 wbView.getSettings().setDomStorageEnabled(true);
    ```
-
+**Picasso Image:** </br>
+```java
+Picasso.with(context).load(product.getImage()).into(holder.imageView);
+   ```
